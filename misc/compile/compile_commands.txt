@@ -1,0 +1,8 @@
+Mac:
+	Homebrew:
+	gcc main.c ... libmlx42.a -Iinclude -lglfw -L"/opt/homebrew/Cellar/glfw/3.3.8/lib/"
+	42 Homebrew:
+	gcc main.c ... libmlx42.a -Iinclude -lglfw -L"/Users/$(USER)/.brew/opt/glfw/lib/"
+
+Linux:
+gcc main.c ... libmlx42.a -Iinclude -ldl -lglfw -pthread -lm
